@@ -1,0 +1,32 @@
+.statsList {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+  box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+}
+
+.statsItem {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: calc(100% / 3);
+  background-color: rgba(233, 229, 229, 0.411);
+  border: 1px solid rgba(221, 221, 221, 0.609);
+}
+
+.label {
+  color: gray;
+  font-size: 14px;
+  display: block;
+  padding: 4px 15px 0px 15px;
+}
+
+.quantity {
+  font-weight: 700;
+  display: block;
+  padding: 0px 10px 4px 10px;
+}

@@ -1,0 +1,51 @@
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0px auto 0px auto;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+  box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+}
+
+.avatar {
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 50%;
+  border: solid 1px rgb(231, 231, 231);
+  background-color: rgba(228, 228, 228, 0);
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(204, 204, 204, 1);
+  -moz-box-shadow: 1px 1px 3px 0px rgba(204, 204, 204, 1);
+  box-shadow: 1px 1px 3px 0px rgba(204, 204, 204, 1);
+}
+
+.name {
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px 35px 5px 35px;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.tag {
+  display: block;
+  color: gray;
+  padding: 3px 35px 3px 35px;
+}
+
+.location {
+  display: block;
+  color: gray;
+  padding: 3px 35px 3px 35px;
+}

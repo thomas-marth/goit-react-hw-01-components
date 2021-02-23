@@ -1,0 +1,50 @@
+.statistics {
+  width: 350px;
+  margin: 25px auto 25px auto;
+  justify-content: center;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+  box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+}
+
+.title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: rgb(99, 96, 96);
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.statList {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+  box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+}
+
+.item {
+  color: rgb(235, 236, 218);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px 10px 8px 10px;
+  width: 100%;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+  box-shadow: 2px 2px 5px 0px rgba(204, 204, 204, 1);
+}
+
+.label {
+  padding: 3px;
+  font-size: 12px;
+}
+
+.percentage {
+  padding: 3px;
+  font-size: 16px;
+}
